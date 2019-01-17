@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 200px;
 }
 
 .App-logo {
@@ -29,4 +30,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input {
+  width: 245px;
+  height: 25px;
+}
+
+.meter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
